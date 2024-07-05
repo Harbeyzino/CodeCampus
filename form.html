@@ -3,42 +3,45 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>From</title>
+    <title>Registration Form</title>
 </head>
 <body>
-    <form action="">
-        <h2>FORM REGISTRATION</h2>
-        <label for="fName">First Name:</label>
-        <input type="text" id="fName"><br><br>
+    <h1>Registration Form</h1>
+    <form action="" method="post">
+        <label for="first-name">First Name:</label><br>
+        <input type="text" id="first-name" name="first-name"><br><br>
 
-        <label for="lName">Last Name:</label>
-        <input type="text" id="lName"><br><br>
+        <label for="last-name">Last Name:</label><br>
+        <input type="text" id="last-name" name="last-name"><br><br>
 
-        <label for="tel">Telephone:</label>
-        <input type="number" id="tel">
+        <label for="birthdate">Birthdate:</label><br>
+        <input type="date" id="birthdate" name="birthday"><br><br>
 
-    <!-- this is the radio type which is for Yes/No or True/False -->
-        <h4>GENDER</h4>
-        <label for="female">Female</label>
-        <input type="radio" name="gender" id="female">
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email"><br><br>
 
-        <label for="male">Male</label>
-        <input type="radio" name="gender" id="male">
+        <label for="phone">Phone Number:</label><br>
+        <input type="tel" id="phone" name="phone"><br><br>
 
-    <!-- check-box -->
-       <h2>EDUCATION BACKGROUND</h2>
-       <label for="waec">Waec</label>
-        <input type="checkbox" name="education" id="bsc"><br>
+        <label for="company">Company:</label><br>
+        <input type="text" id="company" name="company"><br><br>
 
-       <label for="bsc">Bsc</label>
-        <input type="checkbox" name="education" id="bsc"><br>
+        <label for="country">Country:</label><br>
+        <input type="text" id="country" name="country"><br><br>
 
-       <label for="master">Master</label>
-        <input type="checkbox" name="msb" id="bsc"><br>
+        <label for="address">Mailing Address:</label><br>
+        <textarea id="address" name="address" rows="4" cols="20"></textarea><br><br>
 
-       <label for="phd">PHD</label>
-        <input type="checkbox" name="education" id="bsc">
-        
+        <label for="comment">Comment:</label><br>
+        <textarea id="comment" name="comment" rows="4" cols="20"></textarea><br><br>
+
+        <label for="current-date">Current Date:</label><br>
+        <input type="date" id="current-date" name="current-date"><br><br>
+
+        <label for="signature">Signature:</label><br>
+        <textarea id="signature" name="signature" required rows="4" cols="20"></textarea><br><br>
+
+        <input type="submit" value="Submit">
     </form>
 </body>
 </html>
