@@ -1,0 +1,22 @@
+body{
+    background-color: yellow;
+    /* using background image */
+    /* background-image: url(download\ \(1\).jpg); */
+    /* background-repeat: no-repeat; */
+    /* background-size: contain; */
+    /* background-attachment: fixed; */
+    /* background-position: center bottom; */
+    background: url(download\ \(1\).jpg) no-repeat fixed right rgba(211, 84, 84, 0.3);
+    /* opacity: 0.3; */
+
+}
+
+
+    
+h1{
+    background-color: white;
+    border-width: 2px;
+    border-style: ;
+    color: red;
+    border-color: blue;
+}

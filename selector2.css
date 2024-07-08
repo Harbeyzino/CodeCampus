@@ -1,0 +1,78 @@
+p{
+    color: red;
+}
+
+.abdul{
+    color: pink;
+}
+
+.lizzy{
+    color: blue;
+}
+
+.abiodun{
+    color: yellow;
+}
+
+.last-seat{
+    color: brown;
+}
+
+#mustapha{
+    background-color: blue;
+}
+
+#cj{
+    background-color: yellow;
+}
+
+    /* Universal selector */
+*{
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.dotted{
+    border: 1px dotted red;
+}
+
+.dashed{
+    border: 1px dashed blue;
+}
+
+            /* css descendant  uses space btw d parent elem and d descendant elem*/
+.africa.nigeria{
+    color: green;
+}
+
+
+            /*  child selector uses > btw the parent elem and the child elem*/
+
+.africa>.nigeria{
+    background-color: yellow;
+}
+
+.parent>.child3{
+    color: chartreuse;
+}
+
+/* adjacent sibling S + to select the immediate sibling */
+
+.contain h2+a{
+    color: white;
+    background-color: black;
+}
+
+a+h2{
+    color: blue;
+}
+
+.child3+.x1{
+    color: aqua;
+}
+
+/* general sibling selector */
+h2~p{
+    color: red;
+}
