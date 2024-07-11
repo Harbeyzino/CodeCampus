@@ -1,0 +1,93 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f3f3f3;
+}
+
+#Outer {
+    width: 80%;
+    margin: 0 auto;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.banner {
+    min-height: 90px;
+    background-color: #ddd;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+#Languages {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#Languages a {
+    margin: 0 5px;
+    text-decoration: none;
+    color: #333;
+}
+
+h1, h4, h5 {
+    text-align: center;
+    color: #333;
+}
+
+h4, h5 {
+    font-weight: normal;
+}
+
+hr {
+    margin: 20px 0;
+    border: none;
+    border-top: 1px solid #ccc;
+}
+
+#Content {
+    margin: 20px 0;
+    padding: 0 20px;
+}
+
+#Panes div {
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #444;
+    margin-bottom: 10px;
+}
+
+p {
+    color: #666;
+    line-height: 1.6;
+}
+
+.boxed {
+    border: 1px solid #ccc;
+    padding: 10px;
+    background-color: #f9f9f9;
+    margin: 20px 0;
+    text-align: center;
+}
+
+.boxed a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+.boxed a:hover {
+    text-decoration: underline;
+}
+
+#Packages a {
+    display: inline-block;
+    margin-right: 10px;
+    color: #007BFF;
+    text-decoration: none;
+}
+
+#Packages a:hover {
+    text-decoration: underline;
+}

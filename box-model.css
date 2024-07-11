@@ -1,0 +1,78 @@
+body{
+    background-color: grey;
+    color: black;
+}
+
+
+h1{
+    /* border-width: 3px 4px 5px 7px; */
+    /* border-style: solid dashed dotted double; */
+    /* border-style: solid ; */
+    /* border-color: blue green; */
+    /* color: aqua; */
+    /* border shortcut */
+    /* border: 1px solid red; */
+    text-align: center;
+    /* width: 100px; */
+
+
+    /* margin  margin auto only works for block level elem*/
+    /* newly introducted margin: margin-block and margin-inline  */
+    /* margin: auto; */
+    /* margin-block-start: 150px; */
+    /* margin-inline-start: 100px; */
+    width: 500px;
+
+    /* margin collapse */
+
+
+    /* padding, left, right, buttom, top. padding:aotu will not take effect*/
+    /* padding-left: 70px; */
+
+
+
+
+    /* box-sizing */
+    /* box-sizing: border-box; */
+
+
+    /* CSS IDENTATION  -, +*/
+    /* text-indent: 40px; */
+
+    /* TEXT ALIGN */
+    text-align: center;
+    /* text docoration. underline -line-through -overline, linestyle== 1.wavy  */
+    text-decoration: 2px overline yellow wavy;
+}
+
+a{
+    text-decoration: none;
+    display: block;
+    line-height: 50px;
+}
+
+p{
+    border-width: 100px;
+    /* width: 70%; */
+    /* border-style: solid dashed dotted double; */
+    border-style: solid;
+    /* border-color: blue green; */
+    /* color: aqua; */
+    /* border shortcut */
+    border: 1px solid red;
+    margin-left: 40px;
+    padding-left: 20px;
+    /* text-align: right; */
+    justify-content: center;
+    text-align-last: right;
+    line-height: 30px;
+    /* text-decoration: underline; */
+    height: 150px;
+    /* overflow,  hidden, visible, scroll*/
+    overflow: auto;
+    
+}
+
+h3{
+    display: inline;
+}
