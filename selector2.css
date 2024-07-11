@@ -72,7 +72,16 @@ a+h2{
     color: aqua;
 }
 
-/* general sibling selector */
+/* general sibling selector (~) */
 h2~p{
     color: red;
 }
+
+
+      /* rep */
+    
+.coder~h2{
+    text-align: center;
+}
+
+    /* pseudo  */

@@ -1,0 +1,12 @@
+/* syntax for pseudo element */
+h1::first-letter{
+    color: blueviolet;
+    font-size: 50px;
+    font-style: oblique;
+}
+
+h1:hover{
+    color: aqua;
+    text-decoration: underline;
+    font-size: 60px;
+}
