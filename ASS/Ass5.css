@@ -1,0 +1,211 @@
+body, html{
+    background-color: #f3f2f2;
+    margin: 0;
+    padding: 0;
+    font-family: "Amatic SC",  sans-serif;
+}
+
+.relative{
+    position: sticky;
+    top: 0;
+    background-color: white;
+    border-radius: 5px;
+    height: 15vh;
+    display: flex;
+}
+
+.absolute{
+    position: absolute;
+    left: 100px;
+    bottom: 6px;
+    font-size: 30px;
+}
+
+.absolute2{
+    position: absolute;
+    right: 400px;
+    bottom: 25px;
+    justify-content: space-between;
+    align-items: center;  
+}
+
+.absolute3{
+    position: absolute;
+    font-size: 13px;
+    right: 200px;
+    bottom: 25px;
+    background-color: #ce1818;
+    border-radius: 20px;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: white;
+}
+
+.absolute4{
+    font-size: 13px;
+    right: 200px;
+    bottom: 25px;
+    background-color: #ce1818;
+    border-radius: 20px;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: white;
+}
+
+a{
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px;
+    color: #7f7f90;
+    transition: 0.6s;
+}
+
+a:hover{
+    color: #ce1818;
+
+}
+.dot{
+    color: #ce1818;
+    
+}
+
+.container{
+    display: flex;
+}
+.content {
+    width: 100%;
+    min-height: 60vh;
+    padding: 60px;
+    align-items: center;
+    margin-top: 100px;
+
+}
+
+.content h2 {
+    margin: 0;
+    font-size: 55px;
+    font-weight: 100;
+    font-family: cursive;
+    color: #2e2c2c;
+}
+  
+.content p {
+    margin: 5px 0 30px 0;
+    font-size: 20px;
+    font-weight: 400;
+    color: #464242;
+    margin-top: 20px;
+}
+
+
+    /*  */
+
+
+.container2{
+    background-color: white;
+    display: flex;
+    /* flex-direction: column; */
+}
+
+.about-container{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.container3{
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.container4 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.box {
+    box-sizing: border-box;
+    margin: 10px;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 23%; /* This allows four boxes in a row with space between them */
+    flex-grow: 1;
+}
+
+.about-section {
+    background-color: #ce1818;
+    color: white;
+}
+
+.about-section h1, .content h1 {
+    margin-top: 0;
+}
+
+.learn-more-button {
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    text-decoration: none;
+}
+.learn-more-button:hover {
+    background-color: white;
+    color: red;
+}
+
+.content h1 {
+    font-size: 1.5em;
+}
+
+.content p {
+    font-size: 1em;
+    line-height: 1.5;
+}
+
+.container5 {
+    position: relative;
+    display: inline-block;
+}
+
+.image {
+    display: block;
+    max-width: 100%;
+}
+
+.stats {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    text-align: center;
+    color: white;
+    background-color: #00000080;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.stat-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.stat-item div {
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.stat-item small {
+    font-size: 16px;
+    font-weight: normal;
+}

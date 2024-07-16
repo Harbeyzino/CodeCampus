@@ -1,0 +1,51 @@
+.container{
+    width: 50%;
+    height: 300px;
+    border: 1px solid red;
+    display: flex;
+}
+
+.container1{
+    border: 1px solid red;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 10px;
+    padding: 10px;
+    background-color: grey;
+    height: 500px;
+}
+
+[class^="flex"]{
+    width: 100px;
+    height: 100px;
+    border: 1px solid red;
+    background-color: blue;
+}
+
+.flex4{
+    align-self: start;
+}
+
+.flex1{
+    align-self: flex-end;
+}
+
+.nav-bar{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: brown;
+    height: 40px;
+}
+
+a{
+    color: azure;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+a:hover{
+    color: blue;
+}

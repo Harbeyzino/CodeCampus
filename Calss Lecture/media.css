@@ -1,0 +1,79 @@
+/* media query for mobile */
+
+@media screen and (max-width: 568px){
+    body{
+        background-color: blue;
+    }
+
+    h1{
+        font-size: 53px;
+        text-align: center;
+        margin-top: 40px;
+        color: white;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+
+    p{
+        width: 90%;
+        text-align: justify;
+        font-size: 25px;
+        color: white;
+        margin: 30px auto;
+        line-height: 40px;
+     }
+}
+
+/* media query for tab */
+
+@media screen and (min-width: 569px){
+    body{
+        background-color: orange;
+    }
+
+    h1{
+    font-size: 83px;
+    text-align: center;
+    margin-top: 60px;
+    color: blue;
+    /* text-decoration: 3px underline dashed white; */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+
+    p{
+        width: 40%;
+        display: inline-flex;
+        text-align: justify;
+        font-size: 20px;
+        color: white;
+        padding: 10px;
+        margin: 30px auto;
+        /* line-height: 40px; */
+        /* height: 200px; */
+        /* border: 1px solid red; */
+     }
+}
+
+/* media query for desktop */
+@media screen and (min-width: 962px){
+    body{
+        background-color: green;
+    }
+
+    h1{
+        font-size: 53px;
+        text-align: center;
+        margin-top: 80px;
+        /* text-decoration: 3px underline dashed white; */
+        padding-bottom: 15px;
+    }
+
+    p{
+        display: inline-flex;
+        width: 40%;
+        text-align: justify;
+        font-size: 25px;
+        color: white;
+        margin: 40px 20px;
+        line-height: 38px;
+    }
+}

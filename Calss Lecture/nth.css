@@ -1,0 +1,105 @@
+ body{
+    background-color: grey;
+ }
+ 
+ /*  */
+div.nav-wrapper:first-child{
+    background-color: blue;
+}
+
+
+
+
+
+    /* nth child: styles odd and even selector */
+.nav-Link:nth-child(odd){
+    color: yellow;
+}
+
+.nav-Link:nth-child(even){
+     background-color: white;
+}
+
+.nav-Link:nth-child(5){
+    font-size: 34px;
+}
+
+span {
+    height: 2rem;
+    width: 2rem;
+    background-color: blue;
+    display: inline-block;
+   }
+
+span:nth-child(3n+2){
+    background-color: blanchedalmond;
+    border-radius: 50%;
+}
+
+    /* CSS Attribute selector: substring matching  Pg160*/
+    
+    /* 1st submatching string */
+[data-type^="todo"]{
+    background-color: orange;
+}
+
+
+    /* 3rd submatching string */
+[data-type$="chore"]{
+    font-size: 24px;
+}
+
+[class^="music"]{   /* 1st submatching string */
+    background-color: blue;
+}
+
+[class$="coding"]{   /* last submatching string */
+    font-size: 24px;
+}
+
+[class*="movie"]{   /* 2nd submatching string */
+    text-align: center;
+}
+
+p{
+    border: 2px solid green;
+    width: 150px;
+    left: 2;/* static postion: no order */
+}
+
+
+    /* postion relative */
+.relative{
+    position: relative;
+    right: 0;
+    background-color: green;
+    color: white;
+    
+}
+
+
+.fixed{
+    position: fixed;
+    right: 0;
+    top: 0;
+    background-color: red;
+}
+
+.parent{
+    width: 200px;
+    height: 200px;
+    border: 2px solid red;
+    position: relative;
+}
+
+.absolute{
+    position: absolute;
+    right: 0;
+}
+
+.sticky{
+    position: sticky;
+    top: 0;
+    right: 0;
+    background-color: blue;
+}
